@@ -11,6 +11,8 @@ const cards=JSON.parse(fs.readFileSync('assets/cards/sources.json','utf8'));asse
 const models=JSON.parse(fs.readFileSync('assets/models/manifest.json','utf8'));assert.equal(models.length,4);for(const m of models){const bytes=fs.readFileSync(exists(m.file));assert.equal(bytes.toString('ascii',0,4),'glTF');assert.equal(bytes.length,m.bytes);exists(m.reference);}
 assert(fs.readFileSync('assets/manuals/puzzi-8-1-c.pdf').subarray(0,5).toString()==='%PDF-');assert(fs.readFileSync('assets/THREE-LICENSE.txt','utf8').includes('MIT'));
 const bundle=fs.readFileSync('dist/game.js','utf8');assert(bundle.length>100000);assert(html.includes('试玩演示')&&bundle.includes('karcher-story-cards:v1'));assert(bundle.includes('THREE'));
-assert(!html.includes('research/'));for(const file of [...fs.readdirSync('src').map(f=>'src/'+f),'index.html','style.css','README.md'])assert(!fs.readFileSync(file,'utf8').includes('/Users/'),'no machine-specific path: '+file);
-for(const excluded of ['test-results','research','.idea'])assert(!fs.existsSync(excluded),'development directory excluded: '+excluded);
+assert(!html.includes('research/'));for(const file of [...fs.readdirSync('src',{withFileTypes:true}).filter(f=>f.isFile()).map(f=>'src/'+f.name),'index.html','style.css','README.md'])assert(!fs.readFileSync(file,'utf8').includes('/Users/'),'no machine-specific path: '+file);
+const excludedDirectories=['test-results','research','.idea'];
+// In a working checkout, ignored local tools are fine; submitted Git files must stay clean.
+if(fs.existsSync('.git')){const tracked=require('node:child_process').execFileSync('git',['ls-files','-z'],{encoding:'utf8'}).split('\0');for(const excluded of excludedDirectories)assert(!tracked.some(f=>f.startsWith(excluded+'/')),'development directory tracked: '+excluded);}else for(const excluded of excludedDirectories)assert(!fs.existsSync(excluded),'development directory excluded: '+excluded);
 console.log('PASS submission references, '+count+' file checks, image hashes, four GLB files, PDF, license, unique IDs, no machine paths');
