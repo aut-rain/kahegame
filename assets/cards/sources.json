@@ -1,0 +1,94 @@
+{
+  "checkedAt": "2026-10-25",
+  "copyPolicy": "中文概述依据官方页面编写；图片来自页面所引用的官方域名，未使用 AI 生成图或电商图冒充官方资料。",
+  "imageHandling": "本地 JPEG 仅缩小尺寸和压缩；localImage 路径以项目根目录为基准，SHA-256 对应提交的图片文件。",
+  "cards": [
+    {
+      "id": "wv-water",
+      "title": "通透的最后一步，是吸走污水",
+      "source": "卡赫国际官网 · WV 2 Plus",
+      "pageUrl": "https://www.kaercher.com/int/home-garden/window-vacs/wv-2-plus-16336400.html",
+      "imageUrl": "https://s1.kaercher-media.com/mam/16336400/mainproduct/211500/d0.jpg",
+      "localImage": "assets/cards/wv.jpg",
+      "sha256": "d5a9a40bcb7556a4b888a34b1ab7112e3d490a0d9b0cc288b4cc95464222f824",
+      "note": "图片为官网 WV 2 Plus 地区版本，配件以实际套装为准。"
+    },
+    {
+      "id": "puzzi-extraction",
+      "title": "污渍离开织物，也有去处",
+      "source": "卡赫国际官网 · Puzzi 8/1",
+      "pageUrl": "https://www.kaercher.com/int/professional/carpet-cleaner/spray-extraction-machines/puzzi-8-1-11002400.html",
+      "imageUrl": "https://s1.kaercher-media.com/mam/11002400/mainproduct/196789/d0.jpg",
+      "localImage": "assets/cards/puzzi.jpg",
+      "sha256": "13c3630d31eb7a913e94bab800052e73dd102c38d4600e4be8686d1d8604fe94",
+      "note": "图片为国际官网版本；抽吸有助于干燥，不代表织物瞬间全干。"
+    },
+    {
+      "id": "sc-steam",
+      "title": "面对不同角落，换一种接触方式",
+      "source": "卡赫国际官网 · SC 4 Deluxe",
+      "pageUrl": "https://www.kaercher.com/int/home-garden/steam-cleaners/sc-4-deluxe-15134600.html",
+      "imageUrl": "https://s1.kaercher-media.com/mam/15134600/mainproduct/216559/d0.jpg",
+      "localImage": "assets/cards/sc.jpg",
+      "sha256": "0e673b757464cccd2932a48cb67b4642d27afd805f89d4a475bdec78a2dbbef3",
+      "note": "图片为国际版附件展示，不表示中国套装包含全部附件；材质适用性以说明书为准。"
+    },
+    {
+      "id": "khb-outdoors",
+      "title": "把清洁带到户外",
+      "source": "卡赫中国官网 · 自驾踏青必备",
+      "pageUrl": "https://www.kahechina.com/article/karcher-story/springKHB.html",
+      "imageUrl": "https://static.kahechina.com/img/20250321/20250321185512_vlpz.jpg?x-oss-process=image/resize,w_830",
+      "localImage": "assets/cards/khb.jpg",
+      "sha256": "799defb54086aee80aaeb6ec708842bc3b0c89cf842aaa0f49fce7f53aff5ae1",
+      "note": "官方文章发布于 2025-03-21；具体水源、附件和操作条件以说明书为准。"
+    },
+    {
+      "id": "culture-since-1980",
+      "title": "清洁，也能帮助历史被看见",
+      "source": "卡赫国际官网 · Cultural Sponsorship",
+      "pageUrl": "https://www.kaercher.com/int/inside-kaercher/company/sponsoring/cultural-sponsorship.html",
+      "imageUrl": "https://s1.kaercher-media.com/media/image/selection/192127/d0/90-cleaning-projects-key-visual.jpg",
+      "localImage": "assets/cards/heritage.jpg",
+      "sha256": "dbc252a0d9d0261812dcb9b453b654ffc8667b2b27aaf16d09d520cda03f6eae",
+      "note": "图片为官网周年清洁项目拼图；专业项目不代表本游戏四款产品可用于文物清洗。"
+    },
+    {
+      "id": "culture-lingshan",
+      "title": "一段离苏州很近的清洁故事",
+      "source": "卡赫国际官网 · Lingshan Buddha",
+      "pageUrl": "https://www.kaercher.com/int/inside-kaercher/company/sponsoring/cultural-sponsorship.html",
+      "imageUrl": "https://s1.kaercher-media.com/media/image/file/174/d0/lingshan-buddha.jpg",
+      "localImage": "assets/cards/lingshan.jpg",
+      "sha256": "9bb3bfec1ee40110ae51495e8a8937484c8ac579113219db6a2ee5e72e1b6dc1",
+      "note": "此为专业文化清洁项目，非家用设备使用示范。"
+    },
+    {
+      "id": "culture-brandenburg",
+      "title": "让城市地标重新清晰",
+      "source": "卡赫国际官网 · Brandenburg Gate",
+      "pageUrl": "https://www.kaercher.com/int/inside-kaercher/company/sponsoring/cultural-sponsorship.html",
+      "imageUrl": "https://s1.kaercher-media.com/media/image/file/2109/d0/brandenburger-tor.jpg",
+      "localImage": "assets/cards/gate.jpg",
+      "sha256": "6b44cc0f2cd2e9aacb2074e3328d0929179522d20540a4622cdbfd3af0b00081",
+      "note": "此为专业文化清洁项目，非家用设备使用示范。"
+    },
+    {
+      "id": "culture-rio",
+      "title": "清洁的足迹，来到里约",
+      "source": "卡赫国际官网 · Christ the Redeemer",
+      "pageUrl": "https://www.kaercher.com/int/inside-kaercher/company/sponsoring/cultural-sponsorship.html",
+      "imageUrl": "https://s1.kaercher-media.com/media/image/file/1367/d0/christusstatue.jpg",
+      "localImage": "assets/cards/crist.jpg",
+      "sha256": "cd1b2986e2e123c425d21777d02e526eba1d27802895990b8392e1ffbf8a4532",
+      "note": "此为专业文化清洁项目，非家用设备使用示范。"
+    }
+  ],
+  "gold": {
+    "probability": "1/100 independent per completed run",
+    "mode": "demo",
+    "title": "获得卡赫大礼包一份",
+    "notice": "试玩演示 · 实物奖品尚未落实，不作为兑奖凭证。"
+  },
+  "ordinaryCardRule": "每款产品首次完成获得对应知识卡；之后未拥有卡抽取权重为已有卡的 3 倍。"
+}

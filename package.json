@@ -1,0 +1,17 @@
+{
+  "name": "karcher-cleaning-lab",
+  "version": "0.2.0",
+  "private": true,
+  "scripts": {
+    "build": "esbuild src/main.js --bundle --format=iife --minify --outfile=dist/game.js --legal-comments=eof",
+    "start": "python3 -m http.server 8765 --bind 127.0.0.1",
+    "test": "node tests/product-process-unit.cjs && node tests/save-compatibility.cjs && node tests/story-cards-unit.cjs && node tests/submission-integrity.cjs"
+  },
+  "dependencies": {
+    "three": "0.180.0"
+  },
+  "devDependencies": {
+    "esbuild": "0.25.11"
+  },
+  "description": "清洁一下 · 围绕四款卡赫产品的 Three.js 清洁解压互动原型"
+}

@@ -1,0 +1,85 @@
+{
+  "brief": "https://ocn8hd90aveq.feishu.cn/wiki/RRdmwGT1kiBXvRkfRa5c0ydCnAb",
+  "pathBase": "project root",
+  "products": [
+    {
+      "id": "puzzi",
+      "source_page": "https://www.kahechina.com/products/pro-spray-extraction/puzzi81c.html",
+      "note": "官网 Puzzi 8/1 C；brief PUZZI 8-1",
+      "retrieved": "2026-10-24",
+      "rights": "卡赫官网资料；本地概念演示引用，不宣称授权或可再许可"
+    },
+    {
+      "id": "wv2",
+      "source_page": "https://www.kahechina.com/products/home-indoor-window-cleaner/WV2.html",
+      "note": "WV 2",
+      "retrieved": "2026-10-24",
+      "rights": "卡赫官网资料；本地概念演示引用，不宣称授权或可再许可"
+    },
+    {
+      "id": "sc4",
+      "source_page": "https://www.kahechina.com/products/home-steam-cleaner/SC4Deluxe.html",
+      "note": "官网 SC 4 Deluxe；brief SC4D",
+      "retrieved": "2026-10-24",
+      "rights": "卡赫官网资料；本地概念演示引用，不宣称授权或可再许可"
+    },
+    {
+      "id": "khb",
+      "source_page": "https://www.kahechina.com/article/karcher-story/springKHB.html",
+      "note": "KHB Air 官方应用图",
+      "retrieved": "2026-10-24",
+      "rights": "卡赫官网资料；本地概念演示引用，不宣称授权或可再许可"
+    }
+  ],
+  "references": [
+    {
+      "id": "khb-air-reference",
+      "kind": "user-reference",
+      "file": "assets/references/khb-air.avif",
+      "original_filename": "卡赫KHBAir新款无线清洗高压水枪手持锂电无线洗车机 【手持折叠】无线标准版.jpg.avif",
+      "received": "2026-10-24",
+      "status": "copied from user-provided local image; original preserved",
+      "sha256": "3398c3cf8c182b88f0702d9a225c48cf649930ded5a60c141ab718acd4d18ffb",
+      "use": "3D appearance reference and in-app comparison; no inferred performance specifications"
+    },
+    {
+      "id": "wv2-reference",
+      "kind": "user-reference",
+      "file": "assets/references/wv2.webp",
+      "original_filename": "德国卡赫擦窗机器人家用手持浴室全屋玻璃镜面收水清洁吸刮WV2.webp",
+      "received": "2026-10-24",
+      "status": "copied from user-provided local image; original preserved",
+      "sha256": "1212b7a7f147118baf7ff5009edf63ecb369b6e140ce7f80a410b6079b345a35",
+      "use": "3D appearance reference and in-app comparison; no inferred performance specifications"
+    },
+    {
+      "id": "sc4-deluxe-reference",
+      "kind": "user-reference",
+      "file": "assets/references/sc4-deluxe.webp",
+      "original_filename": "德国卡赫高温多功能蒸汽清洁机蒸汽清洁机家用大蒸汽SC4Deluxe.webp",
+      "received": "2026-10-24",
+      "status": "copied from user-provided local image; original preserved",
+      "sha256": "224efd982cdf4ecda5c958a99ec9c2362bfa8ea1165ef1621cf5e5fa11d53214",
+      "use": "3D appearance reference and in-app comparison; no inferred performance specifications"
+    },
+    {
+      "id": "puzzi-8-1-reference",
+      "kind": "user-reference",
+      "file": "assets/references/puzzi-8-1.png",
+      "original_filename": "KARCHER德国卡赫家用布艺沙发床垫窗帘地毯清洗喷抽吸一体多功能清洁机汽车座椅清洗商用原装进口puzzi8:1.png",
+      "received": "2026-10-24",
+      "status": "copied from user-provided local image; original preserved",
+      "sha256": "d3b2c7a26389e8c86d7eb813b20e07ac38ec55b4d38a6b33629a645e0b496f29",
+      "use": "3D appearance reference and in-app comparison; no inferred performance specifications"
+    }
+  ],
+  "cards": "assets/cards/sources.json",
+  "manuals": [
+    {
+      "file": "assets/manuals/puzzi-8-1-c.pdf",
+      "source": "https://s1.kaercher-media.com/documents/manuals/raw/000/BTA-5388986-000-01.pdf",
+      "sha256": "bf0f8d5e690bc9548699bf6ee97cf37495d5abbaf674e4a2016e7240c08949fb",
+      "note": "Puzzi 8/1 C 官方说明书，PDF 第 8 页支持停止喷水后重复抽吸；地区差异以实际套装为准。"
+    }
+  ]
+}

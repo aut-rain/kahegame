@@ -1,0 +1,54 @@
+[
+  {
+    "id": "khb-air",
+    "file": "assets/models/khb-air.glb",
+    "bytes": 1215568,
+    "meshes": 37,
+    "reference": "assets/references/khb-air.avif",
+    "format": "glTF 2.0 binary",
+    "extensionsUsed": [
+      "KHR_materials_unlit"
+    ],
+    "modeling": "manual photo-based Three.js meshes; approximate proportions and unseen surfaces"
+  },
+  {
+    "id": "wv2",
+    "file": "assets/models/wv2.glb",
+    "bytes": 2718260,
+    "meshes": 48,
+    "reference": "assets/references/wv2.webp",
+    "format": "glTF 2.0 binary",
+    "extensionsUsed": [
+      "KHR_materials_clearcoat",
+      "KHR_materials_unlit"
+    ],
+    "modeling": "manual photo-based Three.js meshes; approximate proportions and unseen surfaces"
+  },
+  {
+    "id": "sc4-deluxe",
+    "file": "assets/models/sc4-deluxe.glb",
+    "bytes": 3326684,
+    "meshes": 70,
+    "reference": "assets/references/sc4-deluxe.webp",
+    "format": "glTF 2.0 binary",
+    "extensionsUsed": [
+      "KHR_materials_unlit",
+      "EXT_mesh_gpu_instancing"
+    ],
+    "modeling": "manual photo-based Three.js meshes; approximate proportions and unseen surfaces"
+  },
+  {
+    "id": "puzzi-8-1",
+    "file": "assets/models/puzzi-8-1.glb",
+    "bytes": 3303356,
+    "meshes": 72,
+    "reference": "assets/references/puzzi-8-1.png",
+    "format": "glTF 2.0 binary",
+    "extensionsUsed": [
+      "KHR_materials_clearcoat",
+      "KHR_materials_unlit",
+      "EXT_mesh_gpu_instancing"
+    ],
+    "modeling": "manual photo-based Three.js meshes; approximate proportions and unseen surfaces"
+  }
+]
